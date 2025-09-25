@@ -1,7 +1,3 @@
-Below is a detailed README file documenting the process of installing Microsoft Office 2010 in Wine using winetricks, including the specific steps you mentioned and additional best practices to ensure a stable setup. The instructions cover the winetricks components you listed, the gdiplus configuration tweak, and tips for troubleshooting common issues like mouse input problems or activation errors.
-
-<xaiArtifact artifact_id="372eaf87-f4db-4b36-99d0-fd163a50ff32" artifact_version_id="042113ea-9199-4ad3-964a-2200b13029bb" title="README.md" contentType="text/markdown">
-
 # Installing Microsoft Office 2010 on Linux Using Wine and Winetricks
 
 This guide provides step-by-step instructions for installing Microsoft Office 2010 on a Linux system using Wine and winetricks. It includes setting up a 32-bit Wine prefix, installing necessary components, configuring gdiplus to avoid mouse input issues, and troubleshooting common problems.
@@ -145,7 +141,3 @@ WINEPREFIX=~/.wine-office winecfg
 - Wine AppDB for Office 2010: https://appdb.winehq.org/objectManager.php?sClass=version&iId=20866
 - Winetricks: https://wiki.winehq.org/Winetricks
 - Wine Bugzilla for reporting issues: https://bugs.winehq.org
-
-</xaiArtifact>
-
-This README provides a comprehensive guide tailored to your setup, incorporating the winetricks components you used and the critical gdiplus tweak. It also includes fallbacks and troubleshooting for common issues like the RPC errors from your logs. If you need further tweaks or have specific distro details, let me know!
